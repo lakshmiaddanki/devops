@@ -8,3 +8,5 @@ git status - to check status in which working area the commit landing
 git add <file-name> - to move commit from working area to staging area
 git add * - it moves all file commits from working area to staging except hidden files
 git add. - it moves all file including hidden files
+git commit -m 'meaning commit message' - to push changes from stage area to local repository
+git push origin main - to push changes from local to remote repository

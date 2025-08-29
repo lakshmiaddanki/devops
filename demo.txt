@@ -1,1 +1,7 @@
 hlo all
+first do git configuration
+next create branch in local
+check git status
+move changes to staging
+move changes from staging to local 
+and push commit to remote
