@@ -1,0 +1,10 @@
+    *** Git commands ***
+before commiting any changes to remote from local we have to do git configuration by name and email then only git repository allows commiting changes from local
+1. git config --global user.name "lakshmiaddanki" name should be official like first and last name in company
+2. git config --global user.email "lakshmiaddanki1998@gmail.com" - official email of company where u works in projects
+ls - to check list of files in repository
+pwd - to check in which directory/folder we are working 
+git status - to check status in which working area the commit landing
+git add <file-name> - to move commit from working area to staging area
+git add * - it moves all file commits from working area to staging except hidden files
+git add. - it moves all file including hidden files
