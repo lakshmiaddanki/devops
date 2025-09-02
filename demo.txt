@@ -1,5 +1,6 @@
 hlo all
 done with below topics upto now 
-git commands in working area, staging area. local , remote push and pull
+git commands in working area, staging area. local , remote push , pull
+git fetch and diff and merge
 creating branches and switch to branch 
 git undo changes from working ,staging ,local,remote 
