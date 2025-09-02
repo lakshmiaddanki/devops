@@ -14,3 +14,12 @@ git pull origin main - to pull changes from remote to local before pushing new c
 git fetch origin main - download the changes from remote to local but didn't merge in local(vscode).
 git diff FETCH_Head main - wth this command we can see the changes of latest commit.
 git merge - merge the remote changes to local.
+git reset -- hard <commit-id> - it removes commit in local and deletes permanently before pushing commit to remote
+git reset --soft <commit-id> - it removes commit from local and presetn in staging area.
+git reset --mixed <commit-id> - it removes commit and keeps in staging area.
+git log --oneline - to check the log history and commit id
+for reset we have to use commit id which was behing the latest commit id.
+for revert we have to use head/main commit id
+git revert <commit-id> - it will removes commit from local and remote and remains history so we can use it in future if needed.
+if u are not removing the commit in remote and work on and tries to push new commit from local to remote it will not works until u do revert 
+once u did with revert then main barch will allows to push new commits.
