@@ -4,5 +4,3 @@ git commands in working area, staging area. local , remote push , pull
 git fetch and diff and merge
 creating branches and switch to branch 
 git undo changes from working ,staging ,local,remote 
-use reset --hard, --soft, --mixed to undo changes in local before pushing commit to remote
-use revert to undo chnages done in remote from local then only it allows to push new commits.
