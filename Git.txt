@@ -11,3 +11,6 @@ git add. - it moves all file including hidden files
 git commit -m 'meaning commit message' - to push changes from stage area to local repository
 git push origin main - to push changes from local to remote repository
 git pull origin main - to pull changes from remote to local before pushing new commits
+git fetch origin main - download the changes from remote to local but didn't merge in local(vscode).
+git diff FETCH_H main - wth this command we can see the changes of latest commit.
+git merge - merge the remote changes to local.
