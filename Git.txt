@@ -23,3 +23,9 @@ for revert we have to use head/main commit id
 git revert <commit-id> - it will removes commit from local and remote and remains history so we can use it in future if needed.
 if u are not removing the commit in remote and work on and tries to push new commit from local to remote it will not works until u do revert 
 once u did with revert then main barch will allows to push new commits.
+git branch -to list availabe branches 
+git branch <branch-name> - to create a branch.
+git checkout <branch-name> - to switch to branch
+git checkout -b <branch-name> - to create as well as to switch to that branch.
+git branch -d <branch-name> - to delete the branch in local.
+git branch -D <branch-name> - to force delete the branch in local even it is not completely merged .
