@@ -1,13 +1,5 @@
 hlo all
-first do git configuration
-next create branch in local
-switch to created branch from main branch
-check git status
-move changes to staging
-move changes from staging to local 
-and push commit to remote
-create pull request in remote repository
-merge pull request 
-delete  created branch in remote
-switch from created branch to main
-pull changes from remote to local
+done with below topics upto now 
+git commands in working area, staging area. local , remote push and pull
+creating branches and switch to branch 
+git undo changes from working ,staging ,local,remote 
