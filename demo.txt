@@ -7,3 +7,6 @@ git undo changes from working ,staging ,local,remote
 to undo changes from local before pushing commit to remote we use --hard(local),--soft(stage),--mixed(working)
 to undo changes from local reset is used it will removes changes in local
 to undo changes in remote use revert -it will removes commit in both local and remote an dremains history we can use it future if required.
+git branching strategies - create develop branch switch to this cretae feature/* branch with meaningful name work on it, save, satge, commit,push to remote feature branch.
+raise PR from feature branch to develop branch
+after approved merge develop branch to main branch. 
